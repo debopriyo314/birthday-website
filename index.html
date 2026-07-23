@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Journey Through Time ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ================= Loading Screen ================= -->
+
+<div id="loading-screen">
+
+    <div class="loader"></div>
+
+    <h1>Preparing Your Birthday Journey...</h1>
+
+</div>
+
+<!-- Floating Particles -->
+<div id="particles"></div>
+
+<!-- ================= PASSWORD PAGE ================= -->
+
+<section id="password-page" class="page active">
+
+    <div class="glass">
+
+        <h1>🔐 Enter Password</h1>
+
+        <p>Hint : The dance form you want to learn</p>
+
+        <input
+        type="password"
+        id="password"
+        placeholder="Enter password">
+
+        <button id="unlockBtn">
+
+            Unlock
+
+        </button>
+
+        <p id="passwordMessage"></p>
+
+    </div>
+
+</section>
+
+<!-- ================= PORTAL PAGE ================= -->
+
+<section id="portal-page" class="page">
+
+    <div class="portal-container">
+
+        <h1>✨ Ready to Enter the Time Portal?</h1>
+
+        <div id="portal">
+
+            <div class="portal-ring ring1"></div>
+            <div class="portal-ring ring2"></div>
+            <div class="portal-ring ring3"></div>
+
+        </div>
+
+        <div class="portal-buttons">
+
+            <button id="yesBtn">
+
+                YES
+
+            </button>
+
+            <button id="noBtn">
+
+                NO
+
+            </button>
+
+        </div>
+
+        <p id="portalMessage"></p>
+
+    </div>
+
+</section>
+
+<!-- ================= MEMORY SECTION ================= -->
+
+<section id="memory-page" class="page">
+
+<div class="memory-wrapper">
+
+<div class="progress">
+
+<div id="progressFill"></div>
+
+</div>
+
+<p id="memoryCounter">
+
+Memory 1 / 7
+
+</p>
+
+<div class="memory-card">
+
+<img
+id="memoryImage"
+src="assets/image1.jpg"
+alt="Memory">
+
+<h2 id="memoryTitle">
+
+Memory Title
+
+</h2>
+
+<p id="memoryText">
+
+Write your memory here.
+
+</p>
+
+</div>
+
+<div class="memory-buttons">
+
+<button id="prevBtn">
+
+◀ Previous
+
+</button>
+
+<button id="nextBtn">
+
+Next ▶
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FINAL PAGE ================= -->
+
+<section id="final-page" class="page">
+
+<div id="fireworks"></div>
+
+<div id="confetti"></div>
+
+<div class="ending">
+
+<h1 id="birthdayTitle">
+
+Happy Birthday ❤️
+
+</h1>
+
+<p id="birthdayLetter">
+
+Happy Birthday to the beautiful soul behind every memory, every dream, and every smile. Never stop believing in yourself. The best chapters of your story are still ahead
+
+</p>
+
+<button id="replayBtn">
+
+Replay Journey
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= MUSIC ================= -->
+
+<audio id="bgMusic" loop>
+
+<source src="assets/music.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- ================= FLOATING BUTTONS ================= -->
+
+<div id="floatingButtons">
+
+<button id="musicBtn">
+
+🎵
+
+</button>
+
+<button id="fullscreenBtn">
+
+⛶
+
+</button>
+
+</div>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
